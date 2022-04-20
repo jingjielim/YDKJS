@@ -39,3 +39,17 @@ var addNextGrade = manageStudentGrades([
 console.log(addNextGrade(81));
 addNextGrade(68);
 // [ .., .., ... ]
+
+/**
+  function manageStudentGradesNew(studentRecords) {
+  var grades = studentRecords.map(getGrade);
+
+  // unset `studentRecords` to prevent unwanted
+  // memory retention in the closure
+  studentRecords = null;
+
+  return addGrade;
+  // ..
+}
+ */
+
